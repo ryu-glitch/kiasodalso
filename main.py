@@ -390,9 +390,9 @@ def home():
                         <h4>Bulk Card Processing</h4>
                         <p>Process a card against multiple test domains</p>
                         <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 5px; margin-top: 10px; font-family: monospace;">
-                            /bulk?key=ryu&cc=card_number|mm|yy|cvv
+                            /try?key=ryu&cc=card_number|mm|yy|cvv
                         </div>
-                        <button class="copy-btn" onclick="copyToClipboard('/bulk?key=ryu&cc=card_number|mm|yy|cvv')">Copy</button>
+                        <button class="copy-btn" onclick="copyToClipboard('/try?key=ryu&cc=card_number|mm|yy|cvv')">Copy</button>
                     </div>
 
                     <div class="result-item">

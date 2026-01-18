@@ -480,7 +480,7 @@ def home():
                 resultContainer.classList.remove('result-success', 'result-error');
 
                 // Make API request
-                fetch(`/ryu?key=ryu&site=${site}&cc=${cc}`)
+                fetch(`/try?key=ryu&site=${site}&cc=${cc}`)
                     .then(response => response.json())
                     .then(data => {
                         // Hide loader
